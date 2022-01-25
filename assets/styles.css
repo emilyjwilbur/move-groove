@@ -256,3 +256,25 @@ header nav ul li a {
 
 
 /* end features section styling */
+
+/* start services section styling */
+
+#services {
+    background: #212122;
+}
+
+#services .container {
+    margin-bottom: 4rem;
+}
+#services .box {
+    width: 23.5%;
+}
+#services .box img {
+    height: 65px;
+    margin-bottom: 2rem;
+}
+
+#services .box h4 {
+    color: white;
+}
+/* end services section styling */
