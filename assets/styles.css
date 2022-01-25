@@ -227,7 +227,32 @@ header nav ul li a {
 
 /* start features section styling */
 
+#features .box{
+    width: 31%;
+}
 
+#features .box > img{
+    width: 100%;
+}
+#features .box .feature-info-container{
+    position: relative;
+}
+
+#features .box .icon {
+    position: relative ;
+    margin: 0 auto;
+    background: #233ede;
+    border-radius: 45px;
+    top: -35px;
+    width: 88px;
+    height: 88px;
+    line-height: 83px;
+    text-align: center;
+}
+
+#features .box .icon img {
+    vertical-align: middle;
+}
 
 
 /* end features section styling */
