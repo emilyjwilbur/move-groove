@@ -90,3 +90,7 @@ $(function () {
       embedVideo.prop('src', embedVideo.prop('src'));
     });
   });
+
+  $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});

@@ -56,7 +56,7 @@ ul {
 
 button {
   cursor: pointer;
-  background: rgb(221, 113, 80);
+  background: rgb(84, 95, 194);
   color: #fff;
   font-size: 0.9rem;
   text-align: center;
@@ -200,7 +200,7 @@ header nav ul li a {
 }
 
 #hero-slider .hero-slide-item .youtube-button {
-  background: rgb(221, 113, 80);
+  background: rgb(84, 95, 194);
   padding: 1.2rem 1.45rem;
   border-radius: 30px;
   color: #fff;
@@ -244,6 +244,14 @@ header nav ul li a {
 #hero-slider .slick-dots li.slick-active button:before {
   border-color: #fff;
 }
+
+
+.card h3 {
+  color: #353535;
+  display: flex;
+  justify-content: center;
+}
+
 /* end: hero section styles */
 
 /* start: features section styles */
@@ -384,12 +392,14 @@ header nav ul li a {
 }
 
 .membership-cards-box {
-  background: rgb(221, 113, 80);
+  background: rgb(84, 95, 194);
   padding: 1.5rem;
 }
 
 .membership-cards-box .inner-container {
-  background: url('https://onclickwebdesign.com/wp-content/uploads/woman-exercise.jpg') top center no-repeat;
+  
+  background: url('https://live.staticflickr.com/65535/51097020442_bafd151c45_h.jpg') top center no-repeat;
+  background-size: cover;
   height: 395px;
   padding: 2.5rem 1.5rem 1.5rem;
 }
@@ -399,6 +409,10 @@ header nav ul li a {
   font-weight: 700;
   color: rgb(221, 113, 80);
   line-height: 1;
+  
+}
+button a {
+  color: white;
 }
 
 .membership-cards-box h2 span {

@@ -9,7 +9,8 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
   <link href="assets/styles.css" type="text/css" rel="Stylesheet" />
-
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
@@ -144,14 +145,13 @@
     <button>See All Services</button>
   </section>
 
+
   <section id="trainers">
     <h5>The Best</h5>
     <h3>Trainers</h3>
     <div class="container">
       <div id="trainers-slider">
 
-
-        
 
         
         <div class="trainer-slider-item">
@@ -239,19 +239,29 @@
 
       <div class="membership-cards-box">
         <div class="inner-container">
-          <strong>NEXT</strong>
-          <h4>Membership Deals</h4>
-          <h2>25% <span>Discount</span></h2>
+          <strong>Life can get a little crazy.</strong>
+          <h4>Take a deep breath with us.</h4>
+          <br>
+          <button> <a href="meditation.html"popover" title="Popover Header" data-content="Some content inside the popover">Lets Meditate</a></button>
+         
+         
         </div>
       </div>
 
-      <div class="personal-trainer-box">
-        <strong>BECOME A</strong>
-        <h4>Personal Trainer</h4>
-        <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis nulla pretium.Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis nulla pretium.</p>
-        <button>Sign Up Now</button>
-      </div>
-    </div>
+        <!-- meditation app start -->
+
+  <div class="card">
+    <h3>Take a deep breath with us.</h3>
+    
+       <h4>Try out our meditation App.</h4>
+       <a href="#" class="button">Go somewhere</a>
+       
+     </div>
+   </div>
+ 
+   <!-- meditation app end -->
+
+      
   </section>
 
   <footer>
@@ -310,5 +320,13 @@
     </div>
   </div>
 
+
+  
+  <script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();   
+    });
+    </script>
   <script src="index.js"></script>
+</body>
 </html>
