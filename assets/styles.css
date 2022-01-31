@@ -446,16 +446,18 @@ button a {
 .membership-cards-box h2 span {
   font-size: 1rem;
   letter-spacing: 0;
+  
 }
 input {
   width: 80%;
   height: 45px;
  margin-bottom: 10px;
-
+ 
 }
 
-.personal-trainer-box button {
-  width: 100%;
+.card .form{
+  border: 2px solid #E5E7F3;
+  padding: 4rem 2.5rem 2.5rem;
 }
 
 
