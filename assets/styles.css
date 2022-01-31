@@ -438,13 +438,7 @@ header nav ul li a {
   padding: 2.5rem 1.5rem 1.5rem;
 }
 
-.membership-cards-box h2 {
-  font-size: 4.5rem;
-  font-weight: 700;
-  color: rgb(221, 113, 80);
-  line-height: 1;
-  
-}
+
 button a {
   color: white;
 }
@@ -453,29 +447,22 @@ button a {
   font-size: 1rem;
   letter-spacing: 0;
 }
+input {
+  width: 80%;
+  height: 45px;
+ margin-bottom: 10px;
 
-.personal-trainer-box {
-  background: url('https://onclickwebdesign.com/wp-content/uploads/personal-trainer.jpg') top center no-repeat;
-  padding: 4rem 3rem 3rem;
 }
 
-.personal-trainer-box h4 {
-  margin-bottom: 2rem;
-  color: #fff;
-}
 
-.personal-trainer-box p {
-  color: #fff;
-  margin-bottom: 1.5rem;
-}
+
+
 
 .personal-trainer-box button {
   width: 100%;
 }
 
-#schedule-services .personal-trainer-box strong {
-  color: #fff;
-}
+
 /* end: schedule services styles */
 
 /* start: footer section styles */
