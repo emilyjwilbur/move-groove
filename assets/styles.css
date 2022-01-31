@@ -54,6 +54,12 @@ ul {
   padding: 0;
 }
 
+.star {
+  color: rgb(84, 95, 194);
+  margin-bottom: 15px;
+  
+}
+
 button {
   cursor: pointer;
   background: rgb(84, 95, 194);
@@ -66,6 +72,9 @@ button {
   font-weight: 500;
   font-family: 'Roboto', 'Helvetica', 'Sans-serif';
   letter-spacing: 2px;
+}
+button:hover{
+  background-color: #353535;
 }
 
 a {
@@ -367,6 +376,22 @@ header nav ul li a {
   letter-spacing: 4px;
 }
 
+#schedule-services #icon {
+  width: 50px;
+}
+
+#monthlyinstructor{
+  width: 300px;
+  margin-left: -10px;
+}
+
+
+#musicsection p {
+  font-weight: 500;
+  font-size: small;
+ 
+}
+
 .upcoming-classes-box {
   border: 2px solid #E5E7F3;
   padding: 4rem 2.5rem 2.5rem;
@@ -446,9 +471,12 @@ button a {
 
 /* start: footer section styles */
 footer {
-  background: url('https://onclickwebdesign.com/wp-content/uploads/footer-bg.jpg') top center no-repeat;
+  background: url('https://live.staticflickr.com/597/20753465633_710ac6c6ab_h.jpg') top center no-repeat;
   background-size: cover;
   padding-bottom: 2rem;
+
+
+  
 }
 
 .footer-container {
@@ -476,28 +504,8 @@ footer ul li a {
   font-weight: 300;
 }
 
-footer .mailing-list {
-  position: relative;
-}
 
-footer input {
-  color: #fff;
-  height: 78px;
-  width: 100%;
-  box-sizing: border-box;
-  background: transparent;
-  border: 2px solid #fff;
-  font-size: 13px;
-  font-style: italic;
-  padding-left: 2rem;
-}
 
-footer button {
-  position: absolute;
-  right: 2px;
-  top: 2px;
-  padding: 1.75rem 3rem;
-}
 
 footer ul.social-icons {
   max-width: 400px;
@@ -506,11 +514,6 @@ footer ul.social-icons {
 
 footer ul.social-icons li a {
   font-size: 1rem;
-}
-
-footer img.bicep {
-  display: block;
-  margin: 0 auto 2rem;
 }
 
 footer small {
@@ -529,7 +532,7 @@ footer small a {
 /* start: search and embed video overlay styles */
 #search-container,
 #video-frame {
-  background: #073B4C;
+  background: rgba(0, 0, 0, 0.85);
   position: fixed;
   top: 0;
   left: 0;
