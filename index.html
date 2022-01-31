@@ -199,7 +199,7 @@
         </div>
 
         <div class="trainer-slider-item">
-          <img src="./assets//images/mindbody.png"/>
+          <img src="./assets/images/mindbody.png"/>
           <h4>mindbodygreen</h4>
           <h5>Mindfulness, health, food, movement, lifestyle.</h5>
           <button><a href="https://www.mindbodygreen.com/">READ MORE</a></button>
@@ -219,7 +219,7 @@
         <div id="musicsection">
         <p>Favorite Song:</p>
         <p id="song">"Right Down the Line" by Gerry Rafferty </p>
-       <img src="/assets/images/play.png" id="icon">
+       <img src="./assets/images/play.png" id="icon">
         <audio id="mySong">
           <source src="./assets/images/03 Right Down the Line.m4a" type="audio/mp3">
         </audio>
@@ -298,9 +298,9 @@
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About Us</a></li>
-          <li><a href="#">Classes</a></li>
+          <li><a href="#">Apparel</a></li>
+          <li><a href="#">Online Classes</a></li>
           <li><a href="#">Instructors</a></li>
-          <li><a href="#">News</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
@@ -345,10 +345,10 @@
   icon.onclick = function(){
       if(mySong.paused) {
         mySong.play();
-        icon.src = "/assets/images/pause.png";
+        icon.src = "./assets/images/pause.png";
       } else {
         mySong.pause();
-        icon.src = "/assets/images/play.png";
+        icon.src = "./assets/images/play.png";
       }
     }
 

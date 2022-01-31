@@ -454,10 +454,6 @@ input {
 
 }
 
-
-
-
-
 .personal-trainer-box button {
   width: 100%;
 }
@@ -491,13 +487,14 @@ footer nav {
 footer ul {
   display: flex;
   justify-content: space-around;
+
 }
 
 footer ul li a {
   color: #fff;
   text-transform: uppercase;
   font-size: 0.8rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 
@@ -505,7 +502,7 @@ footer ul li a {
 
 footer ul.social-icons {
   max-width: 400px;
-  margin: 4rem auto 3rem;
+  margin: 3rem auto 2rem;
 }
 
 footer ul.social-icons li a {
